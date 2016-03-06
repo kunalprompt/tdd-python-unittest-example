@@ -7,7 +7,6 @@ class TestSummitionClass(TestCase):
   def setUp(self):
   	# this method is called once at the begining for every test_* method
     self.summition = SummitionClass()
-    pdb.set_trace()
 
   def test_add_one(self):
   	self.assertEqual(self.summition.add_one(0), 1)
@@ -20,4 +19,4 @@ class TestSummitionClass(TestCase):
 
   def tearDown(self):
   	# this method is called once at the end for every test_* method
-    pdb.set_trace()
+  	del self.summition
