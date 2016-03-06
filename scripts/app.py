@@ -9,7 +9,7 @@ class SummitionClass(object):
 	def add_one(self, num):
 		return num+1
 
-# Step 3
+# Step 3 - This is the final step where functional code is ready for production
 def main():
 	s = SummitionClass()
 	print s.sum_two_numbers(1, 999)
