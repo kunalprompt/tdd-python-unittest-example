@@ -1,6 +1,8 @@
 #### Test Driven Development (TDD) or Test First Development or Test Focused Development (TFD)
 
-__Steps to read through this repository:__
+
+*Steps to read through this repository:*
+
 
 **Step 1: Read test_app.py**
 
@@ -10,6 +12,12 @@ Based on the design, write test cases to each method you have designed. If you r
 **Step 2: Read app.py**
 
 For each test case, write the corresponing class and methods. If you run the test this time, all the tests should pass.
+
+
+**Step 3: Ready for production**
+
+When all tests pass you know that the code you've written is ready for use, and can be shiped now.
+
 
 
 **Important Notes**
